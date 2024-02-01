@@ -1,0 +1,31 @@
+@media only screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: burlywood; */
+    flex-grow: 1;
+  }
+
+  .banner {
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center; */
+  }
+
+  .services-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .promotion-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .promotion:nth-child(3) {
+    grid-column: 3 / 4;
+  }
+
+}
